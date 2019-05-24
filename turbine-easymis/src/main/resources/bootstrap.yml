@@ -5,7 +5,7 @@ endpoints:
     sensitive: false
 spring:
   application:
-    name: test-easymis
+    name: turbine-easymis
   cloud:
     config:
       label: master
