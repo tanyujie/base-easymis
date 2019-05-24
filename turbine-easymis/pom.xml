@@ -8,9 +8,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>org.easymis.base</groupId>
-	<artifactId>test-easymis</artifactId>
+	<artifactId>turbine-easymis</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>test-easymis</name>
+	<name>turbine-easymis</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
