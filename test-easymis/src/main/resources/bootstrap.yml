@@ -1,0 +1,22 @@
+server:
+  port: 8081
+endpoints:
+  refresh:
+    sensitive: false
+spring:
+  application:
+    name: test-easymis
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://localhost:8888/
+
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: test
+    password: test123
+encrypt:
+  failOnError: false
+

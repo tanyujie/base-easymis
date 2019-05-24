@@ -1,0 +1,38 @@
+server.port: 8080
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    non-secure-port: ${PORT:8989}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+hystrix.command.fallbackcmd.execution.isolation.thread.timeoutInMilliseconds: 5000
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+      - id: hystrix-demo
+        uri: lb://employee-service
+        predicates:
+        - Path=/employee/**
+        filters:
+        - RewritePath=/employee/(?<path>.*), /$\{path}
+        #熔断，降解
+        - name: Hystrix
+          args:
+            name: fallbackcmd
+            fallbackUri: forward:/defaultfallback
+        #token过滤
+        - JwtCheck=true
+        # redis限流 ， filter名称必须是RequestRateLimiter
+        - name: RequestRateLimiter
+          args:
+    # 使用SpEL名称引用Bean，与上面新建的RateLimiterConfig类中的bean的name相同
+            key-resolver: '#{@remoteAddrKeyResolver}'
+    # 每秒最大访问次数
+            redis-rate-limiter.replenishRate: 1
+    # 令牌桶最大容量
+            redis-rate-limiter.burstCapacity: 1

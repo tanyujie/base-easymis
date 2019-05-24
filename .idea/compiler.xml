@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="config-easymis" />
+        <module name="demo" />
+        <module name="eureka-easymis" />
+        <module name="gateway-easymis" />
+        <module name="mybatis-easymis-autoconfigure" />
+        <module name="mybatis-easymis-samples" />
+        <module name="mybatis-easymis-starter" />
+        <module name="test-easymis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="base-easymis" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="config-easymis" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="eureka-easymis" target="1.8" />
+      <module name="gateway-easymis" target="1.8" />
+      <module name="hystrix-easymis" target="1.8" />
+      <module name="mybatis-easymis-autoconfigure" target="1.8" />
+      <module name="mybatis-easymis-samples" target="1.5" />
+      <module name="mybatis-easymis-starter" target="1.5" />
+      <module name="mybatis-pagehelper-easymis" target="1.5" />
+      <module name="test-easymis" target="1.8" />
+      <module name="turbine-easymis" target="1.8" />
+      <module name="zipkin-easymis" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

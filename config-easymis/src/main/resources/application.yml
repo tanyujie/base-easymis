@@ -1,0 +1,37 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        label: master                                        #配置仓库的分支
+        git:
+          uri: https://github.com/tanyujie/base-easymis   # 配置git仓库的地址
+          search-paths: springcloud-config-repo                             # git仓库地址下的相对地址，可以配置多个，用,分割。
+          username: tanyujie                                    # git仓库的账号（私有库必填）
+          password: tyj198249                                            # git仓库的密码（私有库必填）
+
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: test
+    password: test123
+
+#关闭安全认证
+management:
+  security:
+    enabled: false
+  #refresh接入点显式暴露出来
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info,bus-refresh
+
+eureka:
+  client:
+    service-url:
+      #设置与Eureka Server交互的地址，查询服务和注册服务都需要依赖这个地址。默认是http://localhost:8761/eureka ；多个地址可使用 , 分隔。
+      defaultZone: http://localhost:8761/eureka/

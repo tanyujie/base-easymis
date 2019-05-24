@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/base-easymis.iml" filepath="$PROJECT_DIR$/base-easymis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-easymis/config-easymis.iml" filepath="$PROJECT_DIR$/config-easymis/config-easymis.iml" />
+      <module fileurl="file://D:\company\base-easymis\demo\demo.iml" filepath="D:\company\base-easymis\demo\demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-easymis/eureka-easymis.iml" filepath="$PROJECT_DIR$/eureka-easymis/eureka-easymis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-easymis/gateway-easymis.iml" filepath="$PROJECT_DIR$/gateway-easymis/gateway-easymis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-pagehelper-easymis/mybatis-easymis-autoconfigure/mybatis-easymis-autoconfigure.iml" filepath="$PROJECT_DIR$/mybatis-pagehelper-easymis/mybatis-easymis-autoconfigure/mybatis-easymis-autoconfigure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-pagehelper-easymis/mybatis-easymis-samples/mybatis-easymis-samples.iml" filepath="$PROJECT_DIR$/mybatis-pagehelper-easymis/mybatis-easymis-samples/mybatis-easymis-samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-pagehelper-easymis/mybatis-easymis-starter/mybatis-easymis-starter.iml" filepath="$PROJECT_DIR$/mybatis-pagehelper-easymis/mybatis-easymis-starter/mybatis-easymis-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-pagehelper-easymis/mybatis-pagehelper-easymis.iml" filepath="$PROJECT_DIR$/mybatis-pagehelper-easymis/mybatis-pagehelper-easymis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-easymis/test-easymis.iml" filepath="$PROJECT_DIR$/test-easymis/test-easymis.iml" />
+    </modules>
+  </component>
+</project>

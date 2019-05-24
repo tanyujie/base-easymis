@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/tanyujie/base-easymis     # 配置git仓库的地址
+          search-paths: /tree/master/springcloud-config-repo                             # git仓库地址下的相对地址，可以配置多个，用,分割。
+          username: tanyujie                                    # git仓库的账号（私有库必填）
+          password: tyj198249                                            # git仓库的密码（私有库必填）
+      label: master                                        #配置仓库的分支
