@@ -52,6 +52,7 @@
         <option value="$PROJECT_DIR$/gateway-easymis/pom.xml" />
         <option value="$PROJECT_DIR$/test-easymis/pom.xml" />
         <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/txlcn-easymis/pom.xml" />
       </list>
     </option>
   </component>
