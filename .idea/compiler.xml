@@ -15,6 +15,7 @@
         <module name="mybatis-easymis-samples" />
         <module name="mybatis-easymis-starter" />
         <module name="test-easymis" />
+        <module name="txlcn-demo-spring-service-a" />
         <module name="txlcn-easymis" />
       </profile>
     </annotationProcessing>
@@ -32,6 +33,7 @@
       <module name="mybatis-pagehelper-easymis" target="1.5" />
       <module name="test-easymis" target="1.8" />
       <module name="turbine-easymis" target="1.8" />
+      <module name="txlcn-demo-spring-service-a" target="1.8" />
       <module name="txlcn-easymis" target="1.8" />
       <module name="zipkin-easymis" target="1.8" />
     </bytecodeTargetLevel>
