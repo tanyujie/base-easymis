@@ -1,4 +1,4 @@
-package org.easymis.base.eureka;
+package org.easymis.base.eureka.service;
 
 import java.io.PrintStream;
 

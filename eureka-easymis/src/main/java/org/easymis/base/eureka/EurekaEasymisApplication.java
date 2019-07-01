@@ -1,5 +1,6 @@
 package org.easymis.base.eureka;
 
+import org.easymis.base.eureka.service.EasymisEurekaManagerBanner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;

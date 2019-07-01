@@ -1,13 +1,22 @@
 server:
-  port: 8500
+  port: 8761
 
 eureka:
+  server:
+    enable-self-preservation: false 
   instance:
     hostname: localhost
   client:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://localhost:${server.port}/eureka/
-
+      defaultZone: http://easymis:easymis123@localhost:${server.port}/eureka/
+# 安全认证的配置  
+spring:
+  security:
+    basic:
+      enabled: true  
+    user: 
+      name: easymis  # 用户名  
+      password: easymis123   # 用户密码 
 #spring.cloud.config.discovery.enabled: true
