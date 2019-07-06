@@ -23,7 +23,7 @@ spring:
 #关闭安全认证
 management:
   security:
-    enabled: false
+    enabled: true
   #refresh接入点显式暴露出来
   endpoints:
     web:
@@ -34,4 +34,4 @@ eureka:
   client:
     service-url:
       #设置与Eureka Server交互的地址，查询服务和注册服务都需要依赖这个地址。默认是http://localhost:8761/eureka ；多个地址可使用 , 分隔。
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://easymis:easymis123@localhost:9761/eureka/

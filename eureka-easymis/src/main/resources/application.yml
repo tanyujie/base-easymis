@@ -1,5 +1,5 @@
 server:
-  port: 8761
+  port: 9761
 
 eureka:
   server:
@@ -19,4 +19,4 @@ spring:
     user: 
       name: easymis  # 用户名  
       password: easymis123   # 用户密码 
-#spring.cloud.config.discovery.enabled: true
+spring.cloud.config.discovery.enabled: true

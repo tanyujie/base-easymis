@@ -13,7 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/mybatis-pagehelper-easymis/mybatis-easymis-starter/mybatis-easymis-starter.iml" filepath="$PROJECT_DIR$/mybatis-pagehelper-easymis/mybatis-easymis-starter/mybatis-easymis-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-pagehelper-easymis/mybatis-pagehelper-easymis.iml" filepath="$PROJECT_DIR$/mybatis-pagehelper-easymis/mybatis-pagehelper-easymis.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-easymis/test-easymis.iml" filepath="$PROJECT_DIR$/test-easymis/test-easymis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/txlcn-demo-spring-service-a/txlcn-demo-spring-service-a.iml" filepath="$PROJECT_DIR$/txlcn-demo-spring-service-a/txlcn-demo-spring-service-a.iml" />
+      <module fileurl="file://D:\company\base-easymis\txlcn-demo-spring-service-a\txlcn-demo-spring-service-a.iml" filepath="D:\company\base-easymis\txlcn-demo-spring-service-a\txlcn-demo-spring-service-a.iml" />
       <module fileurl="file://$PROJECT_DIR$/txlcn-easymis/txlcn-easymis.iml" filepath="$PROJECT_DIR$/txlcn-easymis/txlcn-easymis.iml" />
     </modules>
   </component>

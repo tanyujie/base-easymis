@@ -1,9 +1,18 @@
+#关闭安全认证
+management:
+  security:
+    enabled: true
+  #refresh接入点显式暴露出来
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info,bus-refresh
+
 eureka:
   client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-  instance:
-    preferIpAddress:true
+    service-url:
+      #设置与Eureka Server交互的地址，查询服务和注册服务都需要依赖这个地址。默认是http://localhost:8761/eureka ；多个地址可使用 , 分隔。
+      defaultZone: http://easymis:easymis123@localhost:9761/eureka/
 spring:
   zipkin:
     base-url: http://192.168.230.1:9987/

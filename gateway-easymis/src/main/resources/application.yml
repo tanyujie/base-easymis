@@ -5,7 +5,7 @@ eureka:
     non-secure-port: ${PORT:8989}
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://zt:zt123@localhost:8761/eureka/
 hystrix.command.fallbackcmd.execution.isolation.thread.timeoutInMilliseconds: 5000
 spring:
   cloud:
